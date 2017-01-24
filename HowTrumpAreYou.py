@@ -28,7 +28,7 @@ auth.set_access_token(access_token_key, access_token_secret)
 api = tweepy.API(auth)
 
 user_agent = 'Extracts text from comments on Reddit for comparison purposes'
-reddit = praw.Reddit(username='ComparisonBot',password='r3dd1t2016',client_id='slOtREeDSDjALg',client_secret='w0TBMNHGcZ0j9W6rqrCrUYM08nE', user_agent=user_agent)
+reddit = praw.Reddit(username='ComparisonBot',password='',client_id='',client_secret='', user_agent=user_agent)
 
 trump = None
 compare = ''
